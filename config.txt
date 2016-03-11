@@ -1,2 +1,0 @@
--- Port for socket communication, randomDelayRangeLow, randomDelayRangeHigh
-5555,0,0.5

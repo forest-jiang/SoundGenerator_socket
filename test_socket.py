@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import socket
 #import encode
 import base64
@@ -27,7 +29,7 @@ if __name__ == "__main__":
 	time.sleep(0.3)
 	connectAndSend('127.0.0.1', 5555, '0,0,1,0')
 	time.sleep(1)
-	connectAndSend('127.0.0.1', 5555, '-1,0,1,0\n1,0,1,1')
+	connectAndSend('127.0.0.1', 5555, '-1,0,1,0\n1,0,1,11')
 	#print "Now, test mode, some weird string"
 	#time.sleep(1)
 	#connectAndSend('127.0.0.1', 5555, "\n")
